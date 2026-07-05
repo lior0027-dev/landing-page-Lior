@@ -246,12 +246,18 @@ h3 {
 
 .hero-image-wrap {
   position: relative;
+  min-height: 560px;
+  overflow: hidden;
+  border-radius: 34px;
 }
 
 .hero-image {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-position: 70% center;
+  height: 100%;
+  min-height: 560px;
+  display: block;
+  object-fit: cover;
+  object-position: 72% center;
   border-radius: 34px;
   box-shadow: var(--shadow);
 }
