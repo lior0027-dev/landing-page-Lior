@@ -19,6 +19,7 @@ form?.addEventListener("submit", (event) => {
   const name = data.get("name") || "";
   const organization = data.get("organization") || "";
   const email = data.get("email") || "";
+  const phone = data.get("phone") || "";
   const location = data.get("location") || "";
   const date = data.get("date") || "";
   const message = data.get("message") || "";
@@ -32,6 +33,7 @@ form?.addEventListener("submit", (event) => {
     `Name: ${name}`,
     `Organization: ${organization}`,
     `Email: ${email}`,
+    `Phone: ${phone}`,
     `Location: ${location}`,
     `Event date: ${date}`,
     "",
