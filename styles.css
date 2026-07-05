@@ -251,7 +251,7 @@ h3 {
 .hero-image {
   width: 100%;
   aspect-ratio: 4 / 5;
-  object-fit: cover;
+  object-position: 70% center;
   border-radius: 34px;
   box-shadow: var(--shadow);
 }
@@ -380,7 +380,7 @@ h3 {
 .message-photo img {
   height: 620px;
   width: 100%;
-  object-fit: cover;
+  object-position: 30% center;
   border-radius: 34px;
   box-shadow: var(--shadow);
 }
